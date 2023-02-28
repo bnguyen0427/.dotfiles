@@ -1,0 +1,30 @@
+https://github.com/bnguyen0427/.dotfiles#readme
+#Homework description
+In this homework, I got to learn how to remote into the lab and create and get familiar with Github's online website and the Git version control system on the command line. The process of what i have done in this home work is I first remoted into the lab and created the Github account. Then I made a new repository named .dotfiles and set up the Git on the command line. That i would be able to use Git directly from the terminal. 
+The challenges that i encountered was running the two config command lines. It was because i thought the user.name and email.name were supposed to be my name and my email. I later figured it out that i did not have to chang those into my personal information. Next thing was trying to record all the command lines in section 4. I forgot to record it but fortunately the file gave me the instruction how to retrieve all the command lines that i already used
+After being done with setting up the git, I created the file called hw1.txt which has the link that leads to my public GITHUB repo. I then exit the lab and transfer the file from the linux lab to my personal computer using scp command line.
+#Used commands: 
+mkdir .dotfiles
+ls
+cd .dotfiles
+pwd
+touch README.md
+vim README.md
+cat README.md
+cp ~/.vimrc ~/.dotfiles
+git init
+git add --all
+git comit -m "INIT commit"
+git branch -M main
+git remote add orgin git@github.com:bnguyen0427/.dotfiles
+git push -u origin main
+
+#Resources Citation:
+GitHub’s guide to adding SSH keys:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/ adding-a-new-ssh-key-to-your-github-account
+
+Linux workstation:
+https://cse.sc.edu/resources/cse-linux-workstations
+
+Your first time with git and Github
+https://kbroman.org/github_tutorial/pages/first_time.html
